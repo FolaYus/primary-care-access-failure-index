@@ -50,3 +50,29 @@ Detailed documentation is available in **`data_sources.md`**.
 ---
 
 ## Repository Structure
+
+primary-care-access-failure-index/
+│
+├── README.md
+├── data_sources.md
+│
+├── data/
+│ ├── raw/ # Original, unmodified datasets
+│ ├── processed/ # Cleaned, analysis-ready data
+│
+├── notebooks/
+│ ├── 01_data_catalog.ipynb
+│ ├── 02_data_cleaning.ipynb
+│ ├── 03_index_calculation.ipynb
+│
+├── scripts/
+│ ├── clean_population.py
+│ ├── clean_ed_visits.py
+│ ├── build_index.py
+│
+├── outputs/
+│ ├── figures/
+│ ├── tables/
+│
+└── docs/
+└── methodology.md
